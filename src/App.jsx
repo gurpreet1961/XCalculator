@@ -21,7 +21,7 @@ const App = () => {
 		<div className="calc">
 			<h1>React Calculator</h1>
 			<input type="text" name="" id="" value={exp} />
-			{result && <p className="result">{result}</p>}
+			{result && <div className="result">{result}</div>}
 			<div className="calcBtnGrp">
 				<Button handleClickFun={handleClick}>7</Button>
 				<Button handleClickFun={handleClick}>8</Button>
